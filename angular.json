@@ -27,9 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "./node_modules/uikit/dist/css/uikit.min.css",
+              "./node_modules/uikit/dist/css/uikit-core.min.css"
+          ],
+          "scripts": [
+              "./node_modules/uikit/dist/js/uikit.min.js",
+              "./node_modules/uikit/dist/js/uikit-icons.min.js"
+          ]
           },
           "configurations": {
             "production": {
@@ -94,13 +99,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
-            ],
-            "scripts": []
+              "src/styles.css",
+              "./node_modules/uikit/dist/css/uikit.min.css",
+              "./node_modules/uikit/dist/css/uikit-core.min.css"
+          ],
+          "scripts": [
+              "./node_modules/uikit/dist/js/uikit.min.js",
+              "./node_modules/uikit/dist/js/uikit-icons.min.js"
+          ]
           }
         }
       }
     }
   },
-  "defaultProject": "angular-quickstart"
+  "defaultProject": "angular-quickstart",
+  "cli": {
+    "analytics": false
+  }
 }
